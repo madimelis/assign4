@@ -1,4 +1,7 @@
 package com.example.assign4;
 
-public class DoctorRepos {
+import com.example.assign4.Doctor;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface DoctorRepos extends JpaRepository<Doctor, Long> {
 }
